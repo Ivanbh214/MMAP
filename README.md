@@ -19,13 +19,13 @@ The pipeline was tested in Linux based systems (Ubuntu 20.04 LTS), so I recommen
 
 
 To install MMAP locally
-# Install Anaconda 
+Install Anaconda 
 https://docs.anaconda.com/anaconda/install/
 
 -Select your own operating systems (linux Ubuntu 20.04, in my case)
 
 -We have to create a two diffent enviroments:
-conda create -n Env_1 python=3.6
+conda create -n Env_1 python=3.6;
 
 conda create -n Env_2 python=2.7
 # Install independencies needed from MMAP
@@ -45,7 +45,8 @@ conda activate Env_2
 
 
 # Initialling MMAP
--Adjust the parameters in the scritps to the need of your experiments, by default is included the parameters used in https://biorxiv.org/cgi/content/short/2021.05.19.444782v1 (for it, see the tools description)
+-Adjust the parameters in the scritps to the need of your experiments, by default is included the parameters used in https://biorxiv.org/cgi/content/short/2021.05.19.444782v1 (for it, see the tools description).
+
 In script_1:
 	-Fix the working directory
 	-Fix the merged parameters
@@ -60,19 +61,18 @@ In script_2:
 In script_3 
 	-Fix the LCA algoriths parameters
 
--Execute the script in secuential order firstly for the samples amplified with arthorpod primers and the for plant samples
-#Artropod
+-Execute the script in secuential order firstly for the samples amplified with arthorpod primers and the for plant samples:
+
 conda activate Env_1
+
 ./Script_1_Art.sh
+
 ./Script_2_Art.sh
+
 conda deactivate Env_1
+
 conda activate Env_2
+
 ./Script_3_Art.sh
 
-#Plant
-conda activate Env_1
-./Script_1_Pl.sh
-./Script_2_Pl.sh
-conda deactivate Env_1
-conda activate Env_2
-./Script_3_Pl.sh
+
