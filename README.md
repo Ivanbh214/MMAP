@@ -30,7 +30,7 @@ conda create -n Env_1 python=3.6;
 conda create -n Env_2 python=2.7
 # Install independencies needed from MMAP
 
-git clone https://github.com/VascoElbrecht/JAMP/archive/v0.53.tar.gz
+git clone https://github.com/Ivanbh214/MMAP
 
 # Active python 3 envirment and execute requeriments
 conda activate Env_1
