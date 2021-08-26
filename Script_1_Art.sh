@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #working directory /home/ivan/Escritorio/Material_vigente_septiembre/Run1/Art/Raw_data
-mkdir /home/MMAP/Art/Raw_data/ #Working directory, change the path to your needs
+mkdir /home/MMAP/Art/Raw_data/ #Working directory, change the path according to your needs
 mkdir /home/MMAP/Art/Merged/
 mkdir /home/MMAP/Art/Statistic/
 mkdir /home/MMAP/Art/filtered/
