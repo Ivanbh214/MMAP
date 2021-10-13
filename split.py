@@ -1,6 +1,5 @@
 # coding=utf-8
 #
-# J Piñol, 2-May-2018
 #
 # this program reads the prepped.fasta file produced by PIPITS
 # then it  creates as many files as diferent characters are in the
