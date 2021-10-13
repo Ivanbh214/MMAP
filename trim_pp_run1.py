@@ -1,6 +1,4 @@
 # coding=utf-8
-
-# J Piñol, 4-May-2018
 #
 # removes adaptors from amplicons
 #
