@@ -1,6 +1,4 @@
 # coding=utf-8
-
-# J Piñol, 4-May-2018
 #
 # Splits a FASTA file into several ones depending on the primer set
 # Used to generate the amplicons
